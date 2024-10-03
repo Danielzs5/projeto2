@@ -1,0 +1,64 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-image: url('https://www.nlc.org/wp-content/uploads/2022/03/el-paso-Texas-sunset.png');
+  background-size: cover;
+  background-position: center;
+  color: black;
+  font-family: Arial, sans-serif;
+}
+
+.glass {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  padding: 20px;
+  backdrop-filter: blur(10px);
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 15px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.input-container label {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.input-container input {
+  padding: 12px;
+  margin-bottom: 15px;
+  font-size: 1.2em;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+button {
+  padding: 8px 15px;
+  font-size: 1.2em;
+  border: none;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #333;
+}
